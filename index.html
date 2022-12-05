@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger menu-øvelse</title>
+    <link rel="stylesheet" href="css/demo.css" />
+    <!-- Ret i nedenståendde stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="#0">Logo</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <header>
+          <h2>Kontakt os</h2>
+          <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.</p>
+        </header>
+
+        <form action="tak.html" name="kotakt" netflify>
+          <!-- Formular-indhold -->
+          <div class="form-felt">
+            <label for="navn">Fulde navn</label>
+            <input id="navn" name="fname" type="text" />
+
+            <div class="email"></div>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" />
+          </div>
+          <div class="telefon">
+            <label for="telefon">Tlf nummer</label>
+            <input id="telefon" name="tele" type="tel" />
+          </div>
+
+          <div>
+            <label for="rolle">Vælg rolle</label>
+            <select name="rolle" id="rolle">
+              <option value="vaelg_rolle">Vælg rolle</option>
+              <option value="studerende">Studerende</option>
+              <option value="undeviser">Underviser</option>
+            </select>
+          </div>
+          <div>
+            <button>Indsend</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

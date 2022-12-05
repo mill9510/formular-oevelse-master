@@ -1,0 +1,30 @@
+/* Dine styles her */
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+
+label,
+input {
+  display: block;
+  margin: 10px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+body {
+  color: rgb(154, 125, 143);
+}
+
+#rolle {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
